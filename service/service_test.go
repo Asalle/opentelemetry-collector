@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/open-telemetry/opentelemetry-collector/defaults"
-	"github.com/open-telemetry/opentelemetry-collector/internal/testutils"
+	"github.com/open-telemetry/opentelemetry-collector/testutils"
 )
 
 func TestApplication_Start(t *testing.T) {

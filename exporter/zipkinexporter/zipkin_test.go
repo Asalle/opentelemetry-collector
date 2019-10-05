@@ -33,10 +33,10 @@ import (
 	zipkinreporter "github.com/openzipkin/zipkin-go/reporter"
 
 	"github.com/open-telemetry/opentelemetry-collector/consumer"
-	"github.com/open-telemetry/opentelemetry-collector/internal/testutils"
 	"github.com/open-telemetry/opentelemetry-collector/processor"
 	"github.com/open-telemetry/opentelemetry-collector/receiver/receivertest"
 	"github.com/open-telemetry/opentelemetry-collector/receiver/zipkinreceiver"
+	"github.com/open-telemetry/opentelemetry-collector/testutils"
 )
 
 func TestZipkinEndpointFromNode(t *testing.T) {
